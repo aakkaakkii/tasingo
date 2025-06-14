@@ -28,7 +28,7 @@ code {
 }
 
 .bingo-cell.selected {
-    background-image: url(/tasingo/static/media/d.419fa4a299caa46d7ad5.jpg);
+    background-image: url(./static/media/d.419fa4a299caa46d7ad5.jpg);
     background-position: 50%;
     background-size: cover
 }
