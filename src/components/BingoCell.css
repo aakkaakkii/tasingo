@@ -1,0 +1,38 @@
+.bingo-cell {
+  position: relative;
+  aspect-ratio: 1/1;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.bingo-cell:hover {
+  background-color: #e0e0e0;
+}
+
+.bingo-cell.selected {
+  background-image: url('../assets/d.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.bingo-cell.selected.marked {
+  background-image: url('../assets/i.jpg');
+  background-size: cover;
+  background-position: center;
+
+}
+
+.selection-indicator {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  font-size: 8px;
+  color: #2e7d32;
+}

@@ -1,0 +1,15 @@
+.bingo-board {
+  margin: 20px 0;
+}
+
+.board-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 10px;
+}
+
+@media (max-width: 600px) {
+  .board-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
