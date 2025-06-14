@@ -7,7 +7,7 @@ function App() {
   const [days, setDays] = useState([]);
 
   useEffect(() => {
-    fetch('/bingoConfig.json')
+    fetch('./bingoConfig.json')
         .then(response => response.json())
         .then(data => {
           console.log('Loaded config:', data);
